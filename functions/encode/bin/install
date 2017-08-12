@@ -1,0 +1,6 @@
+#!/bin/bash -eu
+
+cd $(dirname $0)/..
+
+docker run --rm -v $(pwd):/work -w /work python:3.6 \
+  pip install -U -r requirements.txt -t vendor

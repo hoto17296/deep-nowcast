@@ -1,3 +1,6 @@
 {
-  "handler": "main.handler"
+  "handler": "main.handler",
+  "hooks": {
+    "build": "bin/install"
+  }
 }
