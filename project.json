@@ -1,0 +1,4 @@
+{
+  "name": "deep_nowcast",
+  "role": "arn:aws:iam::397755785773:role/deep_nowcast_lambda_function"
+}
